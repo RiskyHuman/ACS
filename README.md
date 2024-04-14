@@ -1,10 +1,31 @@
-# Project_N.D
-# 1. GDD
-# 2. 세계관 및 설정
-## 2-1. 세계관.
-## 2-2. 스토리.
-## 2-3. 시나리오
-## 2-4. 스토리보드
+# Solo: Project_DT
 
+## 1. GDD
+[GDD](사이트 주소 입력)  
 
-[마이노션](https://atentsgamedesign.notion.site/UXUI-58fbd6f6b6594252afe75f2e6078dd36?pvs=4)
+## 2. 
+
+## 3. 
+
+# Team: ELEUMA
+## 맡은 업무
+- 
+- 
+- 
+
+## 1. 
+
+## 2. 
+
+## 3. 
+
+# Team: Project_NoA
+## 맡은 업무
+- 
+- 
+- 
+## 1. 
+
+## 2. 
+
+## 3. 
