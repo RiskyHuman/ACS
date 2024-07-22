@@ -99,6 +99,26 @@
     .boxcolor2{
       background-color: white;
     }
+    .bold-white-text-with-black-border {
+  font-weight: bold;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* 글씨 테두리 효과 */
+}
+.section-background {
+  background-image: url("/images/홈페이지/상단.jpeg"); /* 배경 이미지 경로 */
+  background-size : cover; /* 이미지가 요소 전체를 덮도록 설정 */
+  background-position: center; /* 이미지의 위치를 중앙으로 설정 */
+  background-repeat: no-repeat; /* 이미지 반복 방지 */
+  padding: 0px; /* 여백 추가 (선택 사항) */
+  color: white; /* 텍스트 색상 설정 (선택 사항) */
+} 
+.album {
+  background-image: url("/images/홈페이지/하단.jpeg"); /* 배경 이미지 경로 */
+  background-size: cover; /* 이미지가 요소 전체를 덮도록 설정 */
+  background-position: center; /* 이미지의 위치를 중앙으로 설정 */
+  background-repeat: no-repeat; /* 이미지 반복 방지 */
+  padding: 0; /* 여백 추가 (선택 사항) */
+}
   </style>
 </head>
 
@@ -144,12 +164,12 @@
   </header>
 
   <main class="boxcolor">
-    <section class="py-5 text-center container">
+    <section class="py-5 text-center section-background">
       <div class="row py-lg-5">
         <div class="col-lg-6 col-md-8 mx-auto">
-          <h1 class="fw-light fontcolor">ELLIUMA</h1>
-          <p class="lead text-muted">발크베임에 맞서 엘리우마의 자유를 쟁취하라.</p>
-          <p class="lead text-muted">팀내역할 : 팀장, 세계관 설정, 스토리, 스토리보드.</p>
+          <h1 class="bold-white-text-with-black-border">ELLIUMA</h1>
+          <p class="bold-white-text-with-black-border">발크베임에 맞서 엘리우마의 자유를 쟁취하라.</p>
+          <p class="bold-white-text-with-black-border">팀내역할 : 팀장, 세계관 설정, 스토리, 스토리보드.</p>
           <p>
             <!-- <a href="https://www.youtube.com/watch?v=O1Uh6Vl08zg" class="btn btn-success my-2">레벨 시연 영상 보기</a> -->
             <!-- <a href="https://www.youtube.com/watch?v=d69GbPPFHk8" class="btn btn-success my-2">UI 시연 영상 보기</a> -->
@@ -277,7 +297,7 @@
   <footer class="text-muted py-5 bg-dark">
     <div class="container">
       <p class="float-end mb-1">
-        <a href="/pages/mainpage.html"class="btn btn-dark">Back to MainPage</a>
+        <a href="/pages/mainpage.html"class="btn btn-outline-dark my-2 boxcolor2">Back to MainPage</a>
       </p>
       <!-- <p class="mb-1">자신이 공부하는 분야와 기획포지션에 대해서 적으세요.</p>
       <p class="mb-0">자신이 공부한 것을 입증할 수 있는 학교, 학원 등을 링크하세요. <a href="https://atentsgame.com">아텐츠게임아카데미</a> </p> -->
